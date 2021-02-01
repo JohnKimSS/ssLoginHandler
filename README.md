@@ -5,8 +5,8 @@
 
 To test login validation, please create schema and table with the following init queries.
 
-* Schema Name: sslogin
-* Table Name: registry
+* Schema Name: `sslogin`
+* Table Name: `registry`
 * Init Query: 
 ```
 `id` INT AUTO_INCREMENT NOT NULL,

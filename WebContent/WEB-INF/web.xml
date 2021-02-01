@@ -1,0 +1,30 @@
+<web-app>
+<display-name>LoginHandler</display-name>
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+<welcome-file>index.htm</welcome-file>
+<welcome-file>index.jsp</welcome-file>
+<welcome-file>default.html</welcome-file>
+<welcome-file>default.htm</welcome-file>
+<welcome-file>default.jsp</welcome-file>
+</welcome-file-list>
+
+<servlet>
+	<servlet-name>LoginHandler</servlet-name>
+	<servlet-class>LoginHandler</servlet-class>
+</servlet>
+<servlet>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>Welcome</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>LoginHandler</servlet-name>
+	<url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/Welcome</url-pattern>
+</servlet-mapping>
+    
+</web-app>

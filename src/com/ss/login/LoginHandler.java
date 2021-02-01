@@ -1,4 +1,4 @@
-package com.ss.login;
+package com.ss.login.LoginHandler;
 
 import java.io.*;
 import javax.servlet.*;
